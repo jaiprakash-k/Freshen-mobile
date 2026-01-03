@@ -28,9 +28,13 @@
         "CAMERA"
       ]
     },
+    "web": {
+      "bundler": "metro"
+    },
     "platforms": [
       "ios",
-      "android"
+      "android",
+      "web"
     ],
     "plugins": [
       "@react-native-community/datetimepicker"
